@@ -1,0 +1,39 @@
+*   {
+    margin: 0;
+    padding: 5px;
+    border: 0;
+}
+
+body{
+    background-image: url("https://media.giphy.com/media/11XZmjOcJBNPt6/giphy.gif");
+    background-size: cover;
+}
+
+.links{
+    text-align: center;
+}
+
+.links a{
+    color: orange;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 16px;
+    padding-bottom: 10px;
+    text-decoration: none;
+
+}
+.links a:hover {
+    color: rgb(10, 243, 193);
+    transition: color 2000ms;
+}
+#wrapper{
+    text-align: center;
+}
+#wrapper img{
+    border-radius: 20%;
+    border: 10px solid orange;
+    height: 210px;
+    width: 200px;
+    text-align: center;
+
+}
